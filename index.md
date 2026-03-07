@@ -211,9 +211,9 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
 ## 参考
 
 - パフォーマンスランクの基準(公式ドキュメント)
-    - https://creators.vrchat.com/avatars/avatar-performance-ranking-system/#section-avatar-performance-ranks-value-maximums-per-rank
+    - [Performance Ranks | VRChat Creation](https://creators.vrchat.com/avatars/avatar-performance-ranking-system/#section-avatar-performance-ranks-value-maximums-per-rank)
 - レンダーキューについて
-    - https://vrnavi.jp/vrchat-renderqueue/
+    - [【VRChat】服や髪が消えてしまう問題”レンダーキュー”（Render Queue）について - ぶいなび](https://vrnavi.jp/vrchat-renderqueue/)
 
 ## Blueprint IDについて
 
