@@ -36,6 +36,8 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
 
 ### プロジェクトに入れるもの(ALCOMのパッケージ管理もしくはUnityにImportする)
 
+<div class="table-wrapper">
+
 | 概要 | パッケージ | 備考 | 場所 |
 | --- | --- | --- | --- |
 | Apple silicon Macで作業するなら前提 | Harmony Patches for Apple Silicon native & Rosetta | (無いとMetal環境でHarmonyがうごかん、これで動くけど一部シェーダーはマテリアルエラーになる(アップロードすると戻るので作業中は我慢)) | ALCOMへプリロード済 |
@@ -47,6 +49,8 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
 | 動作確認支援 | gesture manager | ジェスチャーなどのVRC動作をUnity上で再現するためのツール(UnityのPlay機能の上位互換) | ALCOMへプリロード済 |
 | PC向け非破壊軽量化 | LAC Texture Compressor | PC版はこれで気持ち軽くしておいた方がいいと思う | [https://lac.limitex.dev/ja/docs/installation/](https://lac.limitex.dev/ja/docs/installation/) |
 | メッシュ軽量化 | Meshia Mesh Simplification | モバイル対応で無理やりPoorなどにする場合の最終手段なので基本なくていい、手順も割愛 | [https://ramtype0.github.io/Meshia.MeshSimplification/index.html](https://ramtype0.github.io/Meshia.MeshSimplification/index.html) |
+
+</div>
 
 ## Windows向け手順
 
