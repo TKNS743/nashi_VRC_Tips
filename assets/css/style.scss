@@ -7,10 +7,8 @@
   max-width: 1200px;
 }
 
-.table-wrapper {
+table {
+  display: block;
   overflow-x: auto;
-}
-
-.table-wrapper table {
-  width: 100%;
+  white-space: nowrap;
 }
