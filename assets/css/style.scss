@@ -6,3 +6,11 @@
 .inner {
   max-width: 1200px;
 }
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table-wrapper table {
+  width: 100%;
+}
