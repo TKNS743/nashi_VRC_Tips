@@ -175,6 +175,11 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
     - ここではbuild設定の変更のみ！アップロードはもう少しあとで
 8. [**NoriBlocker**をboothから導入](https://riceworks.booth.pm/items/5808613)、インポートしてアバターの一番下へ挿入
     - せっかくのお気に入り子をQuest/iOSからも綺麗に見れるようになるので絶対やった方がいい…
+    
+    - NoriBlockerに対応していないアバター(瑞希ちゃん)をお迎えしたのでそれの設定方法
+    
+        [瑞希ちゃん固有設定 #海苔対策](subpage/Mizuki_uniquesettings.md#海苔対策)
+
 9. メガネなどレンズ系でシェーダーが別途使われている場合はそのシェーダーをVRChat/Mobile/Particles/Multiplyへ修正
     - Quest/iOSに対応してないシェーダーを使うとちゃんと見えないので対策
         
@@ -232,6 +237,8 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
 [改訂履歴](subpage/RevHis.md)
 
 [しなのちゃん固有設定](subpage/Shinano_uniquesettings.md)
+
+[瑞希ちゃん固有設定](subpage/Mizuki_uniquesettings.md)
 
 [メモ](subpage/Memo.md)
 
