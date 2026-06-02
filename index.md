@@ -176,38 +176,44 @@ Unityと仲良くなるためのおまじない・Quest,iOS対応をしてやさ
 8. [**NoriBlocker**をboothから導入](https://riceworks.booth.pm/items/5808613)、インポートしてアバターの一番下へ挿入
     - せっかくのお気に入り子をQuest/iOSからも綺麗に見れるようになるので絶対やった方がいい…
     
-    - NoriBlockerに対応していないアバター(瑞希ちゃん)をお迎えしたのでそれの設定方法
+    - NoriBlockerに対応していないアバター(瑞希ちゃん・ラムネちゃん)をお迎えしたのでそれの設定方法
     
         [瑞希ちゃん固有設定 #海苔対策](subpage/Mizuki_uniquesettings.md#海苔対策)
 
-9. メガネなどレンズ系でシェーダーが別途使われている場合はそのシェーダーをVRChat/Mobile/Particles/Multiplyへ修正
-    - Quest/iOSに対応してないシェーダーを使うとちゃんと見えないので対策
-        
-        <a href="image/main/forQuest/Shader_glass.png" target="_blank">
-            <img src="image/main/forQuest/Shader_glass.png" width="400">
-        </a>
+        [ラムネちゃん固有設定 #海苔対策](subpage/Ramune_uniquesettings.md#海苔対策)
+
+9. シェーダー系の修正を行う
+    1. メガネなどレンズ系でシェーダーが別途使われている場合はそのシェーダーをVRChat/Mobile/Particles/Multiplyへ修正
+        - Quest/iOSに対応してないシェーダーを使うとちゃんと見えないので対策
+            
+            <a href="image/main/forQuest/Shader_glass.png" target="_blank">
+               <img src="image/main/forQuest/Shader_glass.png" width="400">
+            </a>
     
-10. アクセサリーなど金属表現のシェーダーが別途使われてる場合はそのシェーダーをVRChat/Mobile/Standard Liteへ修正
-    1. Main Mapsのアルペドを好みの色味へ修正する
-        
-        <a href="image/main/forQuest/Shader_metal.png" target="_blank">
-            <img src="image/main/forQuest/Shader_metal.png" width="400">
-        </a>
+    2. アクセサリーなど金属表現のシェーダーが別途使われてる場合はそのシェーダーをVRChat/Mobile/Standard Liteへ修正
+        - Main Mapsのアルペドを好みの色味へ修正する
+            
+            <a href="image/main/forQuest/Shader_metal.png" target="_blank">
+                <img src="image/main/forQuest/Shader_metal.png" width="400">
+            </a>
+
+    - ラムネちゃん用パーティクル・メガネ・金平糖ギミック用シェーダー設定はこちら
+
+        [ラムネちゃん固有設定 #各種シェーダー変更](subpage/Ramune_uniquesettings.md#各種シェーダー変更)
     
-    
-11. gesture managerから動作確認(主に8で対策した表情・9および10で変更したシェーダーの部分)
+10. gesture managerから動作確認(主に8で対策した表情・9および10で変更したシェーダーの部分)
     - 動作確認時の操作イメージ
         
         <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">赤くなる海苔現象解消っぽい、やったー <a href="https://t.co/u3et4PX9Mt">pic.twitter.com/u3et4PX9Mt</a></p>&mdash; (u_)たかなし (@u_takanashi_VRC) <a href="https://twitter.com/u_takanashi_VRC/status/2025430707200557212?ref_src=twsrc%5Etfw">February 22, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         
-12. とりあえずVRCQuestTools経由でAndroid向けにアップロードしてみる
+11. とりあえずVRCQuestTools経由でAndroid向けにアップロードしてみる
     1. SDK側からだと万が一容量オーバーしているとWindows向けごとアップロード済みアバターがSecurity Checkで死ぬのでそれの対策
         
         <a href="image/main/forQuest/build_publish_Android.png" target="_blank">
             <img src="image/main/forQuest/build_publish_Android.png" width="400">
         </a>
     
-13. 上記9の手順がうまく行ったらVRChatSDKのアップローダーでbuildをiOSへ変更し、ビルド準備してもらった上でアップロード
+12. 上記9の手順がうまく行ったらVRChatSDKのアップローダーでbuildをiOSへ変更し、ビルド準備してもらった上でアップロード
     - Android向けアップロードでiOSへ自動変換が機能することを確認した。
         
         が、どうやら自動変換は意図しない見た目・挙動になる気がするので余裕があればiOSビルドも行った方がいい。
